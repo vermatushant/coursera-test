@@ -8,6 +8,7 @@ div#container {
   position: relative;
   top: 20px;
   margin: 1px;
+  height: 175px;
 }
 
 .row {
