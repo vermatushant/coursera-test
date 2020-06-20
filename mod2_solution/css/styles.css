@@ -6,9 +6,10 @@
 div#container {
   background-color: #F5D38E;
   position: relative;
-  top: 20px;
+  border: 2px solid black;
+  top: 50px;
   margin: 1px;
-  height: 175px;
+  height: 200px;
 }
 
 .row {
@@ -19,31 +20,29 @@ div#container {
 section {
 	width: 150px;
 	height: 23px;
-	position: relative;
+	position: absolute;
 	top: 0px;
-	left: 147px;
+	right: 0px;
 	background-color: grey;
-	border-right: : 1px solid black;
-	border-left: : 1px solid black;
-	border-bottom: 1px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 p {
-	width: 50%
+	margin-top: 50px;
+	width: 90%;
 	height: 120px;
 	color: grey;
 	font-family: Helvetica;
-	color: blue;
+	color: black;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: 
 }
 
 
 @media (min-width: 992px) {
 	.col-lg-4 {
 		float: left;
-		border: 1px solid black;
 		background-color: #F5D38E;
 	}
 
@@ -55,8 +54,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6 {
 		float: left;
-		border: 1px solid black;
-		width: 49%;
+		width: 48%;
 		background-color: #F5D38E;
 	}
 }
@@ -64,11 +62,11 @@ p {
 @media (max-width: 767px) {
 	.col-sm-12 {
 		float: left;
-		border: 1px solid black;
 		width: 100%;
 		background-color: #F5D38E;
 		
 	}
+
 
 }
 
