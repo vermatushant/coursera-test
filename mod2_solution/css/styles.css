@@ -1,0 +1,42 @@
+
+.row {
+	width: 100%;
+}
+
+p {
+	width: 90%
+	height: 120px;
+	color: grey;
+	font-family: Helvetica;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4, {
+		float: left;
+		border: 1px solid black;
+	}
+
+	.col-lg-4 {
+		width: 33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, {
+		float: left;
+		border: 1px solid black;
+		width: 50%
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+		border: 1px solid black;
+		width: 100%;
+	}
+
+}
+
